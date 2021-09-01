@@ -1,6 +1,6 @@
-<h2>Liste des commentaires</h2>
+<h2>Liste des Posts</h2>
 
 
-<div>
-    
+<div class="flex">
+    <app-post-card [post]="post" *ngFor="let post of posts"></app-post-card>
 </div>

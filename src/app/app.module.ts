@@ -9,13 +9,15 @@ import { UserCardComponent } from './user-list/user-card/user-card.component';
 import { HttpClientModule } from "@angular/common/http";
 import { PostListComponent } from './post-list/post-list.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PostCardComponent } from './post-list/post-card/post-card.component';
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
     UserCardComponent,
     PostListComponent,
-    NavbarComponent
+    NavbarComponent,
+    PostCardComponent
   ],
   imports: [
     BrowserModule,
