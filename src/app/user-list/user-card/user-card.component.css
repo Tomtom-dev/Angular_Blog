@@ -1,0 +1,24 @@
+.card {
+  background-color: lightblue;
+  border-radius: 2em;
+  padding: 2em;
+  width: 20vw;
+}
+
+.card-header {
+  font-size: larger;
+}
+
+.card-body {
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-footer a {
+  background-color: lightskyblue;
+  border-radius: 2em;
+  padding: 0.7em;
+}
