@@ -8,7 +8,8 @@ const routes: Routes = [
   {path: "", redirectTo: "users", pathMatch: "full"},
   // Routes pour la section utilisateur
   {path: "users", component: UserListComponent, pathMatch: "full"},
-  {path: "posts", component: PostListComponent }
+  {path: "posts", component: PostListComponent },
+  // {path: "comments", component: }
 ];
 
 @NgModule({

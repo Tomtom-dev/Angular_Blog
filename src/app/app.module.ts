@@ -8,12 +8,14 @@ import { UserCardComponent } from './user-list/user-card/user-card.component';
 
 import { HttpClientModule } from "@angular/common/http";
 import { PostListComponent } from './post-list/post-list.component';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
     UserCardComponent,
-    PostListComponent
+    PostListComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
