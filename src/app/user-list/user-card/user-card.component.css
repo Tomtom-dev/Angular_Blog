@@ -1,6 +1,6 @@
 .card {
   background-color: lightblue;
-  border-radius: 2em;
+  border-radius: 1em;
   padding: 2em;
   width: 20vw;
 }
@@ -19,6 +19,6 @@
 
 .card-footer a {
   background-color: lightskyblue;
-  border-radius: 2em;
+  border-radius: 1em;
   padding: 0.7em;
 }
