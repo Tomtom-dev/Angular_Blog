@@ -9,7 +9,7 @@ const routes: Routes = [
   // Routes pour la section utilisateur
   {path: "users", component: UserListComponent, pathMatch: "full"},
   {path: "posts", component: PostListComponent },
-  // {path: "comments", component: }
+  // {path: "posts/:numero/comments", component: CommentListComponent }
 ];
 
 @NgModule({

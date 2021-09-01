@@ -1,8 +1,9 @@
+
 <div class="card ">
-    <div class="card-header">{{post.title}}</div>
+    <h3 class="card-header">{{post.title}}</h3>
     <div class="card-body">
         <p>{{post.body}}</p>
-        <p>Posté par  : </p>
+        
     </div>
-
+    <button class="btn btn-primary" (click)='getComments()'>voir les commentaires de ce post</button>
 </div>

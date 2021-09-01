@@ -15,4 +15,8 @@ export class PostCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getComments(){
+    console.log(`render comment from ${this.post.id}`);
+  }
+
 }
