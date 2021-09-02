@@ -17,6 +17,7 @@ export class PostCardComponent implements OnInit {
 
   getComments(){
     console.log(`render comment from ${this.post.id}`);
+    return this.post.id
   }
 
 }

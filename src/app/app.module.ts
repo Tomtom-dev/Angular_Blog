@@ -11,6 +11,7 @@ import { PostListComponent } from './post-list/post-list.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PostCardComponent } from './post-list/post-card/post-card.component';
 import { CommentListComponent } from './comment-list/comment-list.component';
+import { CommentCardComponent } from './comment-list/comment-card/comment-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { CommentListComponent } from './comment-list/comment-list.component';
     PostListComponent,
     NavbarComponent,
     PostCardComponent,
-    CommentListComponent
+    CommentListComponent,
+    CommentCardComponent
   ],
   imports: [
     BrowserModule,
